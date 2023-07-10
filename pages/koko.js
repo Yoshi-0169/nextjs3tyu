@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { Footer } from '../components/Footer';
-import Links from '../components/Links';
+import {Links} from '../components/Links';
+import {Headline} from '../components/Headline';
 
 export default function Home() {
   return (
@@ -12,17 +13,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Indexpage
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Headline pages='koko'/>
         <Links />
-
       </main>
-
       <Footer />
     </div>
   )
