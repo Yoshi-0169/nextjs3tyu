@@ -1,0 +1,7 @@
+{
+    "compilerOptions":{
+        "baseUrl": "."
+    }
+}
+
+//絶対パス指定
